@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+}
+
+#container {
+    margin-left: 50px;
+}
+
+#container>h1 {
+    font-size: 54px;
+    margin-top: 40px;
+}
+
+#counter_text {
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+#error {
+    color: red;
+    font-size: 16px;
+    margin: 10px 0;
+    display: none;
+}
+
+button {
+    padding: 5px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#clear {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+button.disabled {
+    background-color: white;
+    pointer-events: none; 
+    opacity: 0.3;        
+    cursor: not-allowed; 
+}
